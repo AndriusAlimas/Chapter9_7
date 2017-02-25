@@ -7,8 +7,19 @@
   	<servlet-class>com.example.servlet.MyServlet</servlet-class>
   </servlet>
   
+  <servlet>
+  	<servlet-name>JspServletukas</servlet-name>
+  	<jsp-file>myPage.jsp</jsp-file>
+  </servlet>
+  
   <servlet-mapping>
   	<servlet-name>ManoServletukas</servlet-name>
   	<url-pattern>/servlet</url-pattern>
   </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>JspServletukas</servlet-name>
+  	<url-pattern>/coolJsp</url-pattern>
+  </servlet-mapping>
+  
 </web-app>

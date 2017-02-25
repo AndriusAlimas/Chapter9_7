@@ -12,7 +12,7 @@ public class MyServlet extends HttpServlet {
 		HttpSession session = request.getSession();
 		
 		out.println("<html><body>");
-		out.println("<a href=\"" + response.encodeURL("/myPage.jsp") + "\">click</a>");
+		//out.println("<a href=\"" + response.encodeURL("/coolJsp") + "\">click</a>");
 		out.println("</body></html>");
 	}
 }

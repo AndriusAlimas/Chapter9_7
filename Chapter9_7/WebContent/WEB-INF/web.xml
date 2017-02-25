@@ -3,12 +3,12 @@
   <display-name>Chapter9_7</display-name>
   
   <servlet>
-  	<servlet-name>Mano Servletukas</servlet-name>
+  	<servlet-name>ManoServletukas</servlet-name>
   	<servlet-class>com.example.servlet.MyServlet</servlet-class>
   </servlet>
   
   <servlet-mapping>
-  	<servlet-name>Mano Servletukas</servlet-name>
+  	<servlet-name>ManoServletukas</servlet-name>
   	<url-pattern>/servlet</url-pattern>
   </servlet-mapping>
 </web-app>
